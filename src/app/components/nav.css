@@ -1,0 +1,14 @@
+.navbar {
+  position: fixed;
+  margin: 30vh 0;
+  width: fit-content;
+  padding: 10px 10pt;
+  border: 1px solid gray;
+  font-size: .75em;
+  list-style-type: none;
+  z-index: 1;
+}
+
+.navbar li {
+  cursor: pointer;
+}
