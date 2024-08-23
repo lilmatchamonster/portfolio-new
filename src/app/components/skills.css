@@ -39,7 +39,6 @@
   background-color: hsl(195,16%,85%, .7);
   margin: .5%;
   padding: 1%;
-  /* font-size: 3rem; */
   width: 20%;
   @media screen and (max-width: 900px) {
     width: 40%;
@@ -65,23 +64,6 @@
   margin: 12px 0;
 }
 
-/* .skills-styles .skills .restful {
-  font-size: 1.51rem !important;
-  margin:14px 0 34px;*/
-  /*color: #0c2b31; */
-  /*color: #6D6F83 !important; 
-  pointer-events: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-} */
-
-/* .skills-styles .skills .fix {
-  margin-bottom: 7%;
-} */
-
 .skills-styles .skills .rest {
   margin: 18px 0 12px 0;
 }
@@ -91,8 +73,9 @@
 }
 
 .skills-styles .skills .heroku {
-  margin: 15px 0 12px 0;
+  margin: 17px 0 11px 0;
 }
+
 .skills-styles .skills .styled-com {
   margin: 12px 0;
 }
