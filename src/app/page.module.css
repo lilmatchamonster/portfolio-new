@@ -1,3 +1,7 @@
-.main {
-
+.bgimg {
+  border: 3px solid red;
+  position: fixed !important;
+  object-fit: cover;
+  z-index: -1;
+  margin-bottom: 20px;
 }

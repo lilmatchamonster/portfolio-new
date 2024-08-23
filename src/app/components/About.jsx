@@ -20,7 +20,6 @@ const theme = {
 export default function About() {
   return (
     <div className="about-container">
-      <Image className='bg-img' src={leaf} alt='leaf' fill={true} priority={true} />
       <div className="about-styles" style={theme['a']}>
         <h1 style={{ color: 'hsla(351, 28%, 52%, .19)', textShadow: '0 0 3px hsl(195,16%,85%,.3)' }}>
           About

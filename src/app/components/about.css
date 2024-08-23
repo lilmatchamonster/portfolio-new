@@ -2,14 +2,6 @@
  position: relative;
 }
 
-.bg-img {
-  border: 1px solid red;
-  position: fixed !important;
-  object-fit: cover;
-  z-index: -1;
-  margin-bottom: 20px;
-}
-
 .about-styles {
   padding-top: 3.5%;
   top: 0;
