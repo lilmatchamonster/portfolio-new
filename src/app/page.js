@@ -2,6 +2,8 @@ import Image from "next/image";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 import leaf from './imgs/leaf.webp';
 import s from "./page.module.css";
 
@@ -12,6 +14,8 @@ export default function Home() {
       <Nav />
       <About />
       <Skills />
+      <Projects />
+      <Experience />
     </main>
   );
 }

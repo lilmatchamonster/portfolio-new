@@ -1,0 +1,68 @@
+.card-style {
+  width: 350px;
+  position: relative;
+}
+
+.card-style img {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: -0.5rem;    
+  left: -1rem;
+}
+
+.card-style .card {
+  display: flex;
+  margin: 4%;
+  padding: 11px 20px 11px 44px;
+  width: 90%;
+  min-width: 305px;
+  min-height: 269px;
+  height: 91%;
+  background-color: hsla(206, 56%, 23%, .3);
+  color: #FFFFFF;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 500;        
+  text-shadow: 1px 1px darkolivegreen;
+  border: 1px solid white;
+  transition: background-color .75s, color .75s, border .75s;
+}
+
+.card-style .card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-style .card a:link {
+  color: inherit;
+}
+
+.card-style .card a::after {
+  color: inherit;
+}
+
+.card-style .card:hover {
+  border: 1px solid hsla(206, 56%, 23%, .17);
+  background-color: hsla(0, 0%, 100%, .7);
+  color: #792F52;  
+}
+
+.card-style .card:hover a:link {
+  text-decoration: underline;
+}
+
+.card-style .card:hover p{
+  display: inline;
+}
+
+.card-style .card:hover .text-hover {
+  font-size: 0;
+}
+
+.card-style .card:hover .text-hover:after {
+  content: attr(data-hover);
+  font-size: 1rem;
+}
