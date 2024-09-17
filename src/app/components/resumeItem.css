@@ -1,0 +1,46 @@
+.job-item {
+  background-color: hsla(351, 28%, 52%, .09);
+  box-shadow: 5px 10px 18px silver;
+  font-weight: 500;
+  text-shadow: 1px 1px silver;
+  padding: 12px 24px;
+  max-width: 1100px;
+  margin-top: 20px;
+  @media screen and (max-width: 750px) {
+    background-color: hsla(000, 0%, 100%, .7);
+    transition: background-color .75s;
+  }
+  @media screen and (max-width: 360px) {
+    width: 90%;
+  }
+}
+
+.job-item .item-header {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 21px;
+  @media screen and (max-width: 750px) {
+    margin-left: 0;
+  }
+}
+
+.job-item .item-header svg {
+  position: absolute;
+  left: -62px;
+  width: 42px;
+  height: 42px;
+  @media screen and (max-width: 750px) {
+    position: relative;
+    margin-right: 12px;
+    left: 0;
+  }
+  @media screen and (max-width: 517px) {
+    position: absolute;
+    left: auto;
+    right: 12px;
+    margin-right: 0;
+    width: 24px;
+    height: 24px;
+  }
+}

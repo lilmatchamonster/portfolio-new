@@ -18,13 +18,13 @@ const mySkills = [
     name: 'HTML5',
     icon: <FontAwesomeIcon icon={['fab', 'html5']} />,
     description:
-      'Experience using HTML to seperate web elements into appropriate HTML tags and display data.',
+      'Experience using HTML to seperate web elements into appropriate HTML tags and display data',
   },
   {
     name: 'CSS3',
     icon: <FontAwesomeIcon icon={['fab', 'css3-alt']} />,
     description:
-      'Experience in using CSS to make UI with and without an UX designer. And Also have experience with the SASS and LESS frameworks',
+      'Experience in using CSS to make UI with and without an UX designer. And Also have experience with SASS and LESS frameworks',
   },
   {
     name: 'JavaScript',
@@ -61,13 +61,13 @@ const mySkills = [
   {
     name: 'Python',
     icon: <FontAwesomeIcon icon={['fab', 'python']} />,
-    description: 'Basic understanding of Python, Flask, and Django.',
+    description: 'Basic understanding of Python, Flask, and Django',
   },
   {
     name: 'Squarespace',
     icon: <FontAwesomeIcon icon={['fab', 'squarespace']} />,
     description:
-      'Well versed in setting up dynamic and unique websites through Squarespace. Excellent at setting up Commerce sites and handling payments via Stripe.',
+      'Well versed in setting up dynamic and unique websites through Squarespace. Excellent at setting up Commerce sites and handling payments via Stripe',
   },
   {
     name: 'SQLite3',
@@ -101,7 +101,7 @@ const mySkills = [
     name: 'LESS',
     icon: <FontAwesomeIcon icon={['fab', 'less']} />,
     description:
-    'Extensive experience using LESS/SASS compiler to easily control variables, Mixins, and Namespaces to organize and simplify style sheets.',
+    'Extensive experience using LESS/SASS compiler to easily control variables, Mixins, and Namespaces to organize and simplify style sheets',
   },
   {
     name: 'Styled Components',
@@ -115,7 +115,7 @@ const mySkills = [
       />
     ),
     description:
-      'Experience using styled components to not only create themes and easy to handle dynamic styling, but also to create reusable custom styled components.',
+      'Experience using styled components to not only create themes and easy to handle dynamic styling, but also to create reusable custom styled components',
   },
 ];
 
@@ -130,35 +130,34 @@ const theme = {
 
 export default function Skills() {
   return (
-    // <div>
-      <div className="skills-styles" style={theme['a']}>
-        <h1 style={{ color: 'hsl(195,16%,85%,.17)', textShadow: '0 0 3px hsl(195,16%,85%,.3)' }}>
-          Tech Stack
-        </h1>
-        <div className={'skills-container'}>
-          <div className={'skills'}>
-            {mySkills.map((skill, i) => (
-              <div className={'card'} key={i}>
-                {skill.icon !== null ? (
-                  <>
-                    {skill.icon}
-                    <p className='name'>{skill.name}</p>
-                    <p>
-                      {skill.description}
-                    </p>
-                  </>
-                ) : (
-                  <>
-                    {skill.newIcon}
-                    <p className={`${skill.class}`}>{skill.name}</p>
-                    <p>{skill.description}</p>
-                  </>
-                )}
-              </div>
-            ))}
-          </div>
+
+    <div className="skills-styles" style={theme['a']}>
+      <h1 style={{ color: 'hsl(195,16%,85%,.17)', textShadow: '0 0 3px hsl(195,16%,85%,.3)' }}>
+        Tech Stack
+      </h1>
+      <div className={'skills-container'}>
+        <div className={'skills'}>
+          {mySkills.map((skill, i) => (
+            <div className={'card'} key={i}>
+              {skill.icon !== null ? (
+                <>
+                  {skill.icon}
+                  <p className='name'>{skill.name}</p>
+                  <p>
+                    {skill.description}
+                  </p>
+                </>
+              ) : (
+                <>
+                  {skill.newIcon}
+                  <p className={`${skill.class}`}>{skill.name}</p>
+                  <p>{skill.description}</p>
+                </>
+              )}
+            </div>
+          ))}
         </div>
       </div>
-		// </div>
+    </div>
   );
 }
