@@ -9,6 +9,7 @@
   @media screen and (max-width: 750px) {
     background-color: hsla(000, 0%, 100%, .7);
     transition: background-color .75s;
+    width: 90%;
   }
   @media screen and (max-width: 360px) {
     width: 90%;

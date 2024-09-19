@@ -7,6 +7,14 @@
   }
 }
 
+.experience-styles h1 {
+  padding-left: 35px;
+  @media screen and (max-width: 750px) {
+    text-align: center;
+    padding-left: 0px;
+  }
+}
+
 .experience-styles .experience-container {
   display: flex;
   width: 100%;

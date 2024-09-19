@@ -1,12 +1,16 @@
 .skills-styles {
   padding-top: 3.5%;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
   height: 100%;
   @media screen and (max-width: 800px) {
     padding-top: 9%;
+  }
+}
+
+.skills-styles h1 {
+  padding-left: 35px;
+  @media screen and (max-width: 750px) {
+    text-align: center;
+    padding-left: 0px;
   }
 }
 
