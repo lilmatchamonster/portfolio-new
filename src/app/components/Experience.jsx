@@ -79,7 +79,7 @@ const theme = {
 
 export default function Experience() {
   return (
-    <div className="experience-styles" style={theme['a']}>
+    <div id='experience' className='experience-styles' style={theme['a']}>
       <h1 style={{ color: 'hsla(351, 28%, 52%, .19)', textShadow: '0 0 3px hsl(195,16%,85%,.3)' }}>
         Experience
       </h1>

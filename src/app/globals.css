@@ -9,6 +9,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth !important;
+}
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
