@@ -1,10 +1,17 @@
 .about-container {
   padding-top: 3.5%;
-  top: 0;
-  bottom: 0;
   width: 100%;
   @media screen and (max-width: 800px) {
     padding-top: 9%;
+  }
+}
+
+.about-container h1 {
+  padding-left: 35px;
+  margin-bottom: 2.5%;
+  @media screen and (max-width: 750px) {
+    text-align: center;
+    padding-left: 0px;
   }
 }
 
@@ -17,6 +24,10 @@
     padding-left: 0;
     flex-direction: column;
   }  
+}
+
+.about-container .intro-card h1 {
+  padding-left: 0;
 }
 
 .about-container .intro-card .img {
