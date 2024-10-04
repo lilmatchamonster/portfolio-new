@@ -1,8 +1,10 @@
-import './nav.css';
+import './mobileNav.css';
 
-export default function Nav() {
+export default function MobileNav({ setToggleMenu }) {
+  const handleClick = () => setToggleMenu(false);
+
   return (
-    <ul className='navbar'>
+    <ul className='mobile-nav' onClick={handleClick}>
       <li>
         <a href='#about'>About</a>
       </li>

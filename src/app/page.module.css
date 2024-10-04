@@ -3,7 +3,6 @@
 }
 
 .bgimg {
-  border: 3px solid red;
   position: fixed !important;
   object-fit: cover;
   z-index: -1;
