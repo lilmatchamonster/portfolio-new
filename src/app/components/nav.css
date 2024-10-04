@@ -2,7 +2,7 @@
   position: fixed;
   margin: 30vh 0;
   width: fit-content;
-  padding: 10px 10pt;
+  padding: 10px;
   background-color: rgba(255, 255, 255, 0.5);
   border-top-right-radius: .5rem;
   border-bottom-right-radius: .5rem;
@@ -10,6 +10,9 @@
   font-size: .75em;
   list-style-type: none;
   z-index: 1;
+  @media screen and (max-width: 760px) {
+    display: none;
+  }
 }
 
 .navbar a:link {
@@ -22,11 +25,7 @@
 }
 
 .navbar a:visited {
-  text-decoration: none;
   color: hsla(351, 28%, 52%, .19);
-  font-size: 1rem;
-  font-weight: 500;
-  text-shadow: 1px 1px silver;
 }
 
 .navbar a:hover {

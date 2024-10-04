@@ -85,7 +85,7 @@ export default function Experience() {
       </h1>
       <div className='experience-container'>
         <div className={'section'}>
-          <h3>Profession</h3>
+          <h3>Professional</h3>
           <div className='group'>
             {
               resumeItems.work.map((job, i) => (
