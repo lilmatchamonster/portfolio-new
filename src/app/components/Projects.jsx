@@ -44,44 +44,6 @@ const myProjects = [
   }
 ]
 
-// const ProjectSyles = styled.div`
-//   background-position: center;
-//   -webkit-background-size: cover;
-//   -moz-background-size: cover;
-//   -o-background-size: cover;
-//   background-size: cover !important;
-//   background-repeat: no-repeat;
-//   background-attachment: fixed !important;
-//   padding-top: 3.5%;
-//   position: fixed;
-//   top: 0;
-//   bottom: 0;
-//   right: 0;
-//   left: 0;
-//   width: 100%;
-//   @media screen and (max-width: 800px) {
-//     padding-top: 9%;
-//   }
-
-//   .projects {
-//     margin-top: 2.5%;
-//     padding: 1%;
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     overflow-y: scroll;
-//     height: 56%;
-
-//     @media screen and (max-width: 1250px) {
-//       position: relative;
-//       padding-right: 10%;
-//     }
-//     @media screen and (max-width: 860px) {
-//       padding-right: 30%;
-//     }
-//   }
-// `;
-
 export default function Projects() {
 
   const theme={
@@ -90,7 +52,7 @@ export default function Projects() {
   }
 
   return (
-    <div className='project-styles' style={theme['a']}>
+    <div id='projects' className='project-styles' style={theme['a']}>
       <h1 style={{color: 'hsla(206, 56%, 23%, .19)'}}>Projects</h1>
       <div className='projects-container'>
         <div className={'projects'}>

@@ -19,7 +19,7 @@ const theme = {
 
 export default function About() {
   return (
-    <div className="about-container" style={theme['a']}>
+    <div id='about' className='about-container' style={theme['a']}>
       <h1 style={{ color: 'hsla(351, 28%, 52%, .19)', textShadow: '0 0 3px hsl(195,16%,85%,.3)' }}>
         About
         </h1>

@@ -130,8 +130,7 @@ const theme = {
 
 export default function Skills() {
   return (
-
-    <div className="skills-styles" style={theme['a']}>
+    <div id='skills' className="skills-styles" style={theme['a']}>
       <h1 style={{ color: 'hsl(195,16%,85%,.17)', textShadow: '0 0 3px hsl(195,16%,85%,.3)' }}>
         Tech Stack
       </h1>

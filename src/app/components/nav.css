@@ -2,13 +2,32 @@
   position: fixed;
   margin: 30vh 0;
   width: fit-content;
-  padding: 10px 10pt;
-  border: 1px solid gray;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  box-shadow: 5px 10px 18px silver;
   font-size: .75em;
   list-style-type: none;
   z-index: 1;
+  @media screen and (max-width: 760px) {
+    display: none;
+  }
 }
 
-.navbar li {
-  cursor: pointer;
+.navbar a:link {
+  display: block;
+  text-decoration: none;
+  color: hsla(351, 28%, 52%, .19);
+  font-size: 1rem;
+  font-weight: 500;
+  text-shadow: 1px 1px silver;
+}
+
+.navbar a:visited {
+  color: hsla(351, 28%, 52%, .19);
+}
+
+.navbar a:hover {
+  color: hsl(351, 28%, 52%);
 }
