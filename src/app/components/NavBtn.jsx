@@ -5,6 +5,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import './navBtn.css';
 
 library.add(fas);
+const icon = <FontAwesomeIcon icon={['fas', 'bars']} />
 
 export default function NavBtn({ setToggleMenu }) {
 
@@ -12,7 +13,7 @@ export default function NavBtn({ setToggleMenu }) {
   
   return (
     <div className='menu-btn' onClick={handleClick}>
-      <FontAwesomeIcon icon={['fas', 'bars']} />
+      {icon}
     </div>
   )
 }

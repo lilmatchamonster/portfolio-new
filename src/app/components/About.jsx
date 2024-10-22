@@ -42,7 +42,7 @@ export default function About() {
           learn.
           <br />
           <br />
-          I work in React/Redux, JavaScript, HTML5/CSS3, Node.js, RESTFul API, Python, SQLite3, and LESS/SASS.
+          I work with React, Next.js, JavaScript, HTML5/CSS3, Node.js, RESTful API, Python, SQL, and LESS/SASS.
         </p>
       </div>
       <div className={'intro-card'}>

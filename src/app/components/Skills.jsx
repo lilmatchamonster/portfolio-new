@@ -18,25 +18,25 @@ const mySkills = [
     name: 'HTML5',
     icon: <FontAwesomeIcon icon={['fab', 'html5']} />,
     description:
-      'Experience using HTML to seperate web elements into appropriate HTML tags and display data',
+      'Experience using HTML to separate web elements into appropriate HTML tags and display data',
   },
   {
     name: 'CSS3',
     icon: <FontAwesomeIcon icon={['fab', 'css3-alt']} />,
     description:
-      'Experience in using CSS to make UI with and without an UX designer. And Also have experience with SASS and LESS frameworks',
+      'Experience in using CSS to make UI with and without an UX designer. And also have experience with SASS and LESS frameworks ',
   },
   {
     name: 'JavaScript',
     icon: <FontAwesomeIcon icon={['fab', 'js-square']} />,
     description:
-      'Experience writing JavaScript es6, DOM manipulation, writing functions, and bulit in methods',
+      'Experience writing JavaScript es6, DOM manipulation, writing functions, and built in methods',
   },
   {
     name: 'REACT',
     icon: <FontAwesomeIcon icon={['fab', 'react']} />,
     description:
-      'The bulk of my experience in building frontend applications is in the React framework utilzing popular libraies like Redux',
+      'The bulk of my experience in building frontend applications is using the React framework utilizing popular libraries like Redux',
   },
   {
     name: 'Node.js',
@@ -50,13 +50,13 @@ const mySkills = [
     class: 'rest',
     newIcon: <Image src={restfulLogo} width={100} alt='REST' />,
     description:
-      'Experience in working with and building RESTFul API endpoints to build full CRUD functionality',
+      'Experience in working with and building RESTful API endpoints to build full CRUD functionality',
   },
   {
     name: 'Github',
     icon: <FontAwesomeIcon icon={['fab', 'github-alt']} />,
     description:
-      'Experience working with online cloud version control utilizing seperate production, staging, development, and feature branches',
+      'Experience working with online cloud version control utilizing separate production, staging, development, and feature branches',
   },
   {
     name: 'Python',
@@ -70,18 +70,18 @@ const mySkills = [
       'Well versed in setting up dynamic and unique websites through Squarespace. Excellent at setting up Commerce sites and handling payments via Stripe',
   },
   {
-    name: 'SQLite3',
+    name: 'SQL',
     icon: null,
     class: 'sql',
     newIcon: (
       <Image
         src={sqliteLogo}
         width={50}
-        alt='SQLite3'
+        alt='SQL'
       />
     ),
     description:
-      'Experience using sqlite3 databases tables, queries, and joins',
+      'Experience using SQL databases tables, queries, and joins',
   },
   {
     name: 'Heroku',
@@ -95,7 +95,7 @@ const mySkills = [
       />
     ),
     description:
-    'Experience with live deployment/ configuration using heroku linked with a github repository master branch',
+    'Experience with live deployment/ configuration using Heroku linked with a Github repository main branch',
   },
   {
     name: 'LESS',
